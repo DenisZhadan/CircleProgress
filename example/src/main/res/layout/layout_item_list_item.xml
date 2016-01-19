@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:custom="http://schemas.android.com/apk/res-auto"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="120dp"
@@ -20,10 +20,10 @@
         android:layout_gravity="center_vertical"
         android:gravity="center_vertical"
         android:background="@android:color/transparent"
-        custom:arc_finished_color="#214193"
-        custom:arc_unfinished_color="#F2EDFF"
-        custom:arc_max="99"
-        custom:arc_bottom_text="Дист."
-        custom:arc_suffix_text="км"/>
+        app:arc_finished_color="#214193"
+        app:arc_unfinished_color="#F2EDFF"
+        app:arc_max="99"
+        app:arc_bottom_text="Дист."
+        app:arc_suffix_text="км"/>
 
 </LinearLayout>
